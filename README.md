@@ -18,6 +18,11 @@ Simple payroll microservice using:
 - Docker (NOT IMPLEMENTED YETTT)
 - (Optional) EF Core tools for migrations: `dotnet tool install --global dotnet-ef`
 
+## HOW TO RUN
+- git clone
+- dotnet restore
+- change connection strings in appsettings.json
+
 
 (NOT IMPLEMENTED YETTT)
 (NOT IMPLEMENTED YETTT)
