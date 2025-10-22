@@ -10,14 +10,18 @@ Simple payroll microservice using:
 - /health endpoint
 - Config via `appsettings.json`
 - Basic logging and global error handling
-- Dockerized (app + SQL Server container example)
+- Dockerized (NOT IMPLEMENTED YETTT)
 - Swagger UI enabled
 
 ## Requirements
 - .NET 8 SDK
-- Docker (for container)
+- Docker (NOT IMPLEMENTED YETTT)
 - (Optional) EF Core tools for migrations: `dotnet tool install --global dotnet-ef`
 
+
+(NOT IMPLEMENTED YETTT)
+(NOT IMPLEMENTED YETTT)
+(NOT IMPLEMENTED YETTT)
 ## Local development with Docker (recommended)
 This setup runs SQL Server in a container and the app in another container using Docker network.
 
