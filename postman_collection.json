@@ -1,0 +1,58 @@
+{
+  "info": {
+    "name": "PayrollService",
+    "_postman_id": "00000000-0000-0000-0000-000000000000",
+    "description": "Sample collection for PayrollService",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get Employees",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/employee",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "employee"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Calculate Payroll",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\\n  \"employeeId\": 1,\\n  \"bonus\": 300,\\n  \"taxRate\": 0.1\\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/payroll/calculate",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "payroll",
+            "calculate"
+          ]
+        }
+      }
+    }
+  ]
+}
